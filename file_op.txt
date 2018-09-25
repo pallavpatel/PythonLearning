@@ -1,0 +1,160 @@
+This is new line in the file.. checking new line
+ and see where this is going..  this is new line .. 
+ check this  where it is going.. wwooww is this new line ?? no 
+ check now  
+ 
+ 
+ Data Science: Deep Learning in Python
+ Artificial Intelligence: Reinforcement Learning in Python
+ 
+def most_recurring(list1):
+	cnt1 = 0
+	cnt2= 0 
+    for a in list1:
+        cnt1=list1.count(a)
+        if cnt1 > cnt2:
+            cnt2 = cnt1
+    print({a for a in list1 if list1.count(a) == cnt2})
+	
+def min_num(b):
+    min = b.pop()
+    max = b.pop()
+    for s in b:
+        if s > max:
+            max = s
+        if s < min:
+            min = s
+    print("Minimum is {}".format(min))
+    print("Maximum is {}".format(max))
+	
+
+def num_add(a,t):
+    l = len(a)
+    j=1
+    b=[]
+    for i,v in enumerate(a):
+        while j <= l-1:
+            if v + a[j] == t:
+                print(" Match found ... i = {}, v ={} , j= {}, value of a{} is {} ".format(i,v,j,j,a[j]))
+                b.append([v,a[j]])
+                j = j+1
+            else:
+                print(" i = {}, v ={} , j= {}, value of a{} is {} ".format(i,v,j,j,a[j]))
+                j = j+1
+        j=i+1
+    print(b)	
+
+
+
+
+def permu(s1):
+    k1 = 0
+    k2 = 0
+    s1=str(s1)
+    l = len(s1)
+    s=list(s1)
+    s3=[]
+    for i,v in enumerate(s):
+        j = i
+        s3=s.copy()
+        while j < l-1:
+            k1 = s3[j]
+            k2 = s3[j+1]
+            s3[j]= k2
+            s3[j+1] = k1
+            s2=''.join(list(s3))
+            print(s2)
+            j = j+1
+			
+			
+def permutations(word):
+    if len(word)&lt;=1:
+        return [word]
+    #get all permutations of length N-1
+    perms=permutations(word[1:])
+    char=word[0]
+    result=[]
+    #iterate over all permutations of length N-1
+    for perm in perms:
+        #insert the character into every possible location
+        for i in range(len(perm)+1):
+            result.append(perm[:i] + char + perm[i:])
+    return result
+
+import string
+def anagram(str1, str2):    
+    str1_list = sorted([ s1.lower() for s1 in str1 if s1 in string.ascii_letters])
+    str2_list = sorted([ s2.lower() for s2 in str2 if s2 in string.ascii_letters])
+    if str1_list == str2_list:
+        print("both strings are anagram")
+    else:
+        print("strings are not anagram")
+		
+		
+
+def find_all_even_element(a)
+    {n for n in a if a.count(n) % 2 == 0}
+	
+
+def next_palidrom(a):
+    i = 1
+    a = int(a)+i
+    while True:
+        if a == int(str(a)[::-1]):
+            print("next palidrom is {}".format(a))
+            break
+        else:
+            print("a = {}".format(a))
+            a = a+i
+
+
+			
+def remove_duplicate(s):
+    op_list = []
+    s_list = list(s)
+    for a in s_list:
+        if a not in op_list:
+            op_list.append(a)
+    s1 = ''.join(op_list)
+    print(s1)
+      
+	  
+
+def find_sqrt(n):
+    if n < 0:
+        print("invalid number.."):
+    if n = 1:
+        return 1
+    for a in range(1+n/2):
+        if a*a = n:
+            return a
+        if a*a > n:
+            return a-1
+
+			
+			
+def sqrt_num(k):
+    if k <= 0:
+        print("invalid number")
+    for a in range(int(k/2)):
+        if a*a == k :
+            return a
+        if a*a > k:
+            return a-1
+
+			
+			
+def perm(a,k=0):
+   if(k==len(a)):
+      print(a)
+   else:
+      for i in range(k,len(a)):
+         print("Before perm  ..... i = {} and k= {}".format(i,k))
+         print("before perm and before assignment.. string ={}".format(a))
+         a[k],a[i] = a[i],a[k]
+         print("before perm and after assignment.. string ={}".format(a))
+         perm(a, k+1)
+         print("After term.... i = {} and k= {}".format(i,k))
+         print("after perm and before assignment.. string ={}".format(a))
+         a[k],a[i] = a[i],a[k]
+         print("after perm and after assignment.. string ={}".format(a))
