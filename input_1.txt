@@ -1,0 +1,15 @@
+﻿Year,Ceremony,Award,Winner,Film,Name
+2015,88,Sound Editing,,The Revenant,Martin Hernandez and Lon Bender
+2015,88,Sound Editing,,Sicario,Alan Robert Murray
+2015,88,Sound Editing,,Star Wars: The Force Awakens,Matthew Wood and David Acord
+2015,88,Sound Mixing,,Bridge of Spies,"Andy Nelson, Gary Rydstrom and Drew Kunin"
+2015,88,Sound Mixing,1,Mad Max: Fury Road,"Chris Jenkins, Gregg Rudloff and Ben Osmo"
+2015,88,Sound Mixing,,The Martian,"Paul Massey, Mark Taylor and Mac Ruth"
+2015,88,Sound Mixing,,The Revenant,"Jon Taylor, Frank A. Montaño, Randy Thom and Chris Duesterdiek"
+2015,88,Sound Mixing,,Star Wars: The Force Awakens,"Andy Nelson, Christopher Scarabosio and Stuart Wilson"
+2015,88,Visual Effects,1,Ex Machina,"Andrew Whitehurst, Paul Norris, Mark Ardington and Sara Bennett"
+2015,88,Visual Effects,,Mad Max: Fury Road,"Andrew Jackson, Tom Wood, Dan Oliver and Andy Williams"
+2015,88,Visual Effects,,The Martian,"Richard Stammers, Anders Langlands, Chris Lawrence and Steven Warner"
+2015,88,Visual Effects,,The Revenant,"Rich McBride, Matthew Shumway, Jason Smith and Cameron Waldbauer"
+2015,88,Visual Effects,,Star Wars: The Force Awakens,"Roger Guyett, Patrick Tubach, Neal Scanlan and Chris Corbould"
+
